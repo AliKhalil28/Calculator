@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+background: tan;
+}
+
 /* Nav bar  */
 nav {
     font-family: 'Ubuntu', sans-serif;
