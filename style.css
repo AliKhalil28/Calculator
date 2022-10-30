@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar  */
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.brand img {
+    width: 40px;
+    padding: 0 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.socail {
+    display: flex;
+    align-items: center;
+}
+
+.socail ul li img {
+    width: 34px;
+    border-radius: 23px;
+}
+
+.socail ul li img:hover {
+    transform: scale(1.1);
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+
+/* Main Body  */
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    margin: 10px;
+}
+
+.btn {
+    margin: 0 4px;
+    padding: 10px 17px;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    width: 46px;
+}
+
+.row input {
+    padding: 9px 8px;
+    border: 2px solid;
+    border-radius: 8px;
+    width: 210px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
